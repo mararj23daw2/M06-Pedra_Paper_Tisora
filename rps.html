@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego de Piedra, Papel o Tijeras</title>
+    <script src='programa.js'></script>
+</head>
+<body>
+    <h1>JUEGO DE PIEDRA, PAPEL O TIJERAS</h1>
+    <p>Elige tu opción para jugar:</p>
+    <input id="o1" type="radio" name="opcion" value="1">Piedra<br>
+    <input id="o2" type="radio" name="opcion" value="2">Papel<br>
+    <input id="o3" type="radio" name="opcion" value="3">Tijeras<br>
+
+    <h3>RESULTADO DE LA JUGADA ACTUAL:</h3>
+    <p id="resultat">La máquina ha elegido: ...</p>
+
+    <h3>ESTADÍSTICAS DE JUEGO</h3>
+    <p>Partidas ganadas: <span id="ganadas">0</span></p>
+    <p>Partidas perdidas: <span id="perdidas">0</span></p>
+    <p>Partidas empatadas: <span id="empatadas">0</span></p>
+
+    <button id="nuevaJugada">Nueva Jugada</button>
+    <button id="borrarSeleccion">Borrar Selección</button>
+    <button id="inicializarContadores">Inicializar Contadores</button>
+    <button id="borrarResultado">Borrar Resultado</button>
+</body>
+</html>
